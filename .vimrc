@@ -45,7 +45,7 @@ filetype plugin indent on
 set ic
 set tabstop=2
 set shiftwidth=2
-set expandtab
+" set expandtab
 set backspace=2
 set directory^=$HOME/.vim/tmp//
 set wildmode=longest,list
@@ -55,3 +55,4 @@ set wildmenu
 nnoremap [b :bn<cr>
 nnoremap ]b :bp<cr>
 nnoremap <C-b> :buffers<CR>:b<Space>
+inoremap { {<CR>}<Esc>:call BC_AddChar("}")<CR><Esc>kA<CR>
