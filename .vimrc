@@ -55,4 +55,4 @@ set wildmenu
 nnoremap [b :bn<cr>
 nnoremap ]b :bp<cr>
 nnoremap <C-b> :buffers<CR>:b<Space>
-inoremap { {<CR>}<Esc>:call BC_AddChar("}")<CR><Esc>kA<CR>
+inoremap { {<CR>}<Esc>:<CR><Esc>kA<CR>
