@@ -11,6 +11,7 @@ fi
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
+RPROMPT='%F{yellow}%*%f'
 plugins=(git)
 
 # Helpful defaults
@@ -38,3 +39,4 @@ set -o vi
 
 eval "$(zoxide init bash)"
 
+alias srz="source ~/.zshrc"
